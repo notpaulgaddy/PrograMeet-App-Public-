@@ -1,0 +1,50 @@
+{
+	"expo": {
+		"name": "PrograMeet",
+		"slug": "programeet",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/iconios.png",
+		"userInterfaceStyle": "light",
+		"plugins": [
+			[
+				"expo-image-picker",
+				{
+					"photosPermission": "The app accesses your photos to let you share them with your friends."
+				}
+			]
+		],
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.programeet.programeet"
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon-a.png",
+				"backgroundColor": "#FFFFFF"
+			},
+			"package": "com.programeet.programeet",
+			"googleServicesFile": "./google-services.json",
+			"permissions": ["android.permission.RECORD_AUDIO","NOTIFICATIONS"],
+			
+            "useNextNotificationsApi": true
+		},
+		"notification": {
+  "icon": "./assets/logo-ic.png",
+	"color": "#ff3366",
+	"iosDisplayInForeground": true
+	},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		}
+	}
+}

@@ -36,9 +36,9 @@ For support, email support@programeet.com or join our Slack channel.
 
 
 
-## Our Socials
+## Our Website
 
-Instagram: https://instagram.com/programeet
+https://www.programeet.com
 
 ## Authors
 
